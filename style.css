@@ -1,0 +1,43 @@
+* {
+  /* margin-right: 10px; */
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#productBody {
+  margin-left: 3%;
+}
+
+#productBody .product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem 1.8rem 1rem 1rem;
+  /* padding: 14px 16px 14px 16px; */
+  text-decoration: none;
+}
+
+.nav {
+  margin-left: -8px;
+}
